@@ -2,12 +2,11 @@ def factorial(n):
     if n==1:
         return 1
     return n*factorial(n-1)
-
-# print(factorial(5))
+print(factorial(5))
 
 def binary_recursive(sp, target, l,r):
     if l>r: return -1
-    mid_index = (l+r)/2
+    mid_index = (l+r)//2
     mid_value = sp[mid_index]
 
     if target == mid_value:
