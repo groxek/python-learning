@@ -18,5 +18,4 @@ def binary_recursive(sp, target, l,r):
         return binary_recursive(sp, target,mid_index+1,r)
 
 mylist = [1,2,3,4,5,6,7,8,9]
-
 print(binary_recursive(mylist, 10, 0, len(mylist)-1))

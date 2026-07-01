@@ -15,7 +15,7 @@ class Dog(Animal):
         self.poroda = poroda
 
 
-class Cat(Animal):# class
+class Cat(Animal):
     def __init__(self, name, age):
         super().__init__(name, age, 'Мяу!')
 
@@ -63,7 +63,7 @@ class BankAccount:
         return self.__balance
 
 bro = BankAccount('Sanya', 2000)
-# end
+
 print(bro.get_balance())
 bro.withdraw(3000)
 bro.deposit(-123)
